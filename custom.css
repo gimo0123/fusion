@@ -47,3 +47,17 @@ input[type=date]::-webkit-outer-spin-button {
 /* span.d-block.pl-8.active-content {
     display: none !important;
 } */
+
+.wizard.wizard-2 .wizard-body {
+    width: calc(100% - 400px);
+}
+@media (max-width: 1399.98px) and (min-width: 992px) {
+    .wizard.wizard-2 .wizard-body {
+        width: calc(100% - 325px);
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    .wizard.wizard-2 .wizard-body {
+        width: 100%;
+    }
+}
