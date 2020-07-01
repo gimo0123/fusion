@@ -48,6 +48,12 @@ input[type=date]::-webkit-outer-spin-button {
     display: none !important;
 } */
 
+/*WIZARD NAV*/
+.wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state="current"] .wizard-icon span, .wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state="current"] .wizard-label h3, .wizard.wizard-2 .wizard-nav .wizard-steps .wizard-step[data-wizard-state="current"] .wizard-label div {
+    color: #3699FF;
+}
+
+/*WIZARD CONTENT*/
 .wizard.wizard-2 .wizard-body {
     width: calc(100% - 400px);
 }
@@ -60,4 +66,8 @@ input[type=date]::-webkit-outer-spin-button {
     .wizard.wizard-2 .wizard-body {
         width: 100%;
     }
+}
+
+.wizard.wizard-2 .wizard-body .nav-tabs {
+    border: 0;
 }
